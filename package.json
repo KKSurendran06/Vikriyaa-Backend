@@ -1,0 +1,17 @@
+{
+  "name": "Vikriyaa-Backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KKSurendran06/Vikriyaa-Backend.git",
+  "author": "KKsurendran06 <kksurendran95@gmail.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
