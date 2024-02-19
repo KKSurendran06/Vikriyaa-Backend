@@ -5,13 +5,13 @@
   "repository": "https://github.com/KKSurendran06/Vikriyaa-Backend.git",
   "author": "KKsurendran06 <kksurendran95@gmail.com>",
   "license": "MIT",
-
   "scripts": {
     "dev": "nodemon server.js"
   },
-
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "mongoose": "^8.1.3",
     "nodemon": "^3.0.3"
   }
 }

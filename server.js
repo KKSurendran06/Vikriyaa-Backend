@@ -1,10 +1,16 @@
 const express  = require('express')
-const app = express()
+const cors = require('cors')
+const mongoose = require('mongoose')
 
+const app = express()
 port = 5000;
 
-app.get('/hello', (req, res) => {
-    res.send("Hello World")
+app.use(cors())
+app.use(express.json())
+
+app.post('/api/signup', (req, res) => {
+    console.log(req.body)
+    res.json({ status : 'ok' })
 })
 
 app.listen(port, () => {
